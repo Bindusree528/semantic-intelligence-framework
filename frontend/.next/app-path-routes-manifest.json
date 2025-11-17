@@ -1,0 +1,14 @@
+{
+  "/(app)/compliance/page": "/compliance",
+  "/(app)/dashboard/page": "/dashboard",
+  "/(app)/departments/page": "/departments",
+  "/(app)/document/[id]/page": "/document/[id]",
+  "/(app)/documents/page": "/documents",
+  "/(app)/settings/page": "/settings",
+  "/(app)/upload/page": "/upload",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/forgot-password/page": "/forgot-password",
+  "/login/page": "/login",
+  "/page": "/"
+}
