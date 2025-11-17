@@ -30,7 +30,12 @@ app = FastAPI()
 app.mount("/uploaded_files", StaticFiles(directory="uploaded_files"), name="uploaded_files")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=[
+    "*",
+    "http://localhost:3000",
+    "https://v0-kmrl-document-intelligence-system-3tldaa3sh.vercel.app",
+    "https://abc123.ngrok-free.app"
+  ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
