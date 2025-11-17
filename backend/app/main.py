@@ -33,7 +33,7 @@ app.add_middleware(
     allow_origins=[
     "*",
     "http://localhost:3000",
-    "https://v0-kmrl-document-intelligence-system-3tldaa3sh.vercel.app",
+    "https://semantic-intelligence-framework-q2gp517ez.vercel.app",
     "https://abc123.ngrok-free.app"
   ],
     allow_credentials=True,
